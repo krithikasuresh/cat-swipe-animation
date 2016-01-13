@@ -31,7 +31,7 @@ function reset() {
 }
 
 $("#catpaw").hover(function() {
-    $("#catpaw").addClass(swipe());
-    $("#catpaw").addClass(reset());
+    swipe();
+    reset();
 });
 
